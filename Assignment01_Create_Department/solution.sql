@@ -1,4 +1,9 @@
-create database collegeDB;
-use collegeDB;
-create table department(DepartmentID int(5) primary key,DepartmentName varchar(20),HOD varchar(20));
-desc department;
+CREATE DATABASE CollegeDB;
+USE CollegeDB;
+CREATE TABLE Department (
+    DepartmentID INT(5) PRIMARY KEY,
+    DepartmentName VARCHAR(20),
+    HOD VARCHAR(20)
+);
+
+DESC Department;
